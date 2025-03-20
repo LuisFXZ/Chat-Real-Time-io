@@ -1,10 +1,12 @@
 # Chat Real-Time IO
-
+<p align="center">
+  <img src="https://firebasestorage.googleapis.com/v0/b/crossplatform-application-back.appspot.com/o/Chatapp-nestjs-websockets.png?alt=media&token=e444b113-6d95-49c2-a942-c8e4c8cf67dc" width="240" alt="Chat app" />
+</p>
 A real-time chat application built with NestJS and Socket.IO, enabling instant messaging capabilities through WebSockets.
 
 <p align="center">
-  <img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" />
-  <img src="https://socket.io/images/logo.svg" width="120" alt="Socket.IO Logo" style="margin-left: 20px;" />
+  <img src="https://nestjs.com/img/logo-small.svg" width="60" alt="Nest Logo" />
+  <img src="https://socket.io/images/logo.svg" width="60" alt="Socket.IO Logo" style="margin-left: 20px;" />
 </p>
 
 ## Description
