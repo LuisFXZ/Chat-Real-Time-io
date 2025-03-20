@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Lofy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="phone-container">
+    <div class="connection-info hidden">
+      <h3>Estado del chat: 
+        <small class="hidden" id="status-online">online</small> 
+        <small class="hidden" id="status-offline">offline</small>  
+      </h3>
+      <h3>Personas conectadas</h3>
+      <ul></ul>
+    </div>
+    <div class="chat-container">
+      <div class="chat-header">
+        <div class="back-button">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="contact-info">
+          <div class="pic"></div>
+          <div class="contact-details">
+            <div class="name">Chat Grupal</div>
+            <div class="status">en línea</div>
+          </div>
+        </div>
+      </div>
+      <div class="messages" id="chat">
+        <div class="chat-date">HOY</div>        
+      </div>
+      <div class="message-input-container">
+        <div class="message-input-wrapper">
+          <form class="input-form">
+            <input placeholder="Mensaje" type="text" />
+            <button type="submit" class="send-button">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="socket.io/socket.io.min.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>
